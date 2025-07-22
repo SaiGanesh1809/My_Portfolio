@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/df76bf9305.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <div class="logo-text"><span class="red-letter">G</span>anesh<span class="dot">.</span></div>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Data Scientist</p>
+            <h1>Hi, I'm <span>Sai Ganesh<span></h1>
+        </div>
+    </div>
+</div>
+<!------------------------------------about -------------------------------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <!----<div class="about-col-1">
+                <img src="#">
+            </div>----->
+            <div class="about-col-2">
+                <h1 class= "sub-title">About Me</h1>
+                <p>I am Sai Ganesh, a Data Analyst and aspiring Data Scientist with a strong foundation in data analytics, machine learning, and database management. I specialize in leveraging tools such as Python, SQL, and visualization libraries to extract actionable insights from complex datasets. My academic projects include predictive modeling, data wrangling, and end-to-end machine learning pipelines. I am passionate about solving real-world problems through data-driven approaches and continuously enhancing my technical and analytical skills to deliver impactful solutions.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('Achievements')">Achievements</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                </div>
+            <div class="tab-contents active-tab" id="Skills">
+                <ul>
+                    <li><span>Data Analysis</span><br>Exploratory Data Analysis (EDA), Trend Identification, Data Visualization</li><br>
+                    <li><span>Machine Learning</span><br>Supervised Learning (Classification & Regression), Model Evaluation (Accuracy, Precision, Recall)</li><br>
+                    <li><span>Tools & Technologies</span><br>Python, MySQL, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn</li><br>
+                    <li><span>Database Management</span><br>Writing complex SQL queries, Data Extraction</li><br>
+                    <li><span>Programming</span><br>Python (basic to intermediate), Structured Coding Practices</li>
+                </ul>
+            </div>
+
+                <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><span>NIELIT</span><br>AI & ML Intern</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Achievements">
+                    <ul class="achievement-list">
+                        <li>
+                            <a href="https://internalapp.nptel.ac.in/noc/Ecertificate/?q=NPTEL25CS17S114700201104285205" target="_blank" class="course-name">
+                                Data Analytics With Python
+                            </a>
+                            <span class="platform-name">NPTEL</span>
+                        </li>
+                        <li>
+                            <a href="https://certificate.skillcourse.in/wp-content/uploads/qsm-certificates/135-573-2106609206034e1b171ab725c48f33d3-16-80.pdf" target="_blank" class="course-name">
+                                Microsoft Power BI
+                            </a>
+                            <span class="platform-name">Skill Course</span>
+                        </li>
+                        <li>
+                            <a href="https://nptel.ac.in/noc/E_Certificate/NPTEL24CS68S23680158002665992" target="_blank" class="course-name">
+                                Python For Data Science
+                            </a>
+                            <span class="platform-name">NPTEL</span>
+                        </li>
+                    </ul>
+                </div>
+
+
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>2023 - Current</span><br>Vardhaman College of Engineering<span class="result-corner"></span>CGPA: 9.1</li><br>
+                        <li><span>2021-2023</span><br>Sri Chaitanya Junior College<span class="result-corner"></span>Percentage: 97.7%</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------------------------------------------Services------------------------------------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Data Cleaning & Preprocessing</h2>
+                <p>Transform raw, unstructured data into clean, analysis-ready datasets using Python, Pandas, and SQL.</p>
+                <a href="https://github.com/SaiGanesh1809/WalmartSalesAnalysis-">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Exploratory Data Analysis & Visualization</h2>
+                <p>Reveal hidden trends and insights through visual storytelling with Matplotlib, Seaborn, Tableau, and Power BI.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Predictive Modeling & Machine Learning</h2>
+                <p>Develop supervised and unsupervised models to solve real-world business problems and generate actionable insights.</p>
+                <a href="#">Learn more</a>
+            </div>           
+        </div>
+    </div>
+</div>
+<!----------------------------------------------portfolio-------------------------------------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.jpg">
+                <div class="layer">
+                    <h3>Predicting Customer Churn</h3>
+                    <p>Developed a machine learning model to predict customer churn</p>
+                    <a href="'#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.jpg">
+                <div class="layer">
+                    <h3>Walmart Sales Analysis</h3>
+                    <p>Get Data by using SQL Queries</p>
+                    <a href="https://github.com/SaiGanesh1809/WalmartSalesAnalysis-"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.jpg">
+                <div class="layer">
+                    <h3>Amazon Titles Dashboard</h3>
+                    <p>Gives Data about viwership in Prime Video</p>
+                    <a heref="https://github.com/SaiGanesh1809/Amazon_titles_DashBoard"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/SaiGanesh1809?tab=repositories" class="btn">See more</a>
+    </div>
+</div>
+<!------------------------------------------------contact---------------------------------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                    <p>
+                    <i class="fa-regular fa-paper-plane"></i>
+                    <a href="mailto:ganeshgudibanda09@gmail.com">ganeshgudibanda09@gmail.com</a>
+                    </p>
+
+                    <p>
+                    <i class="fa-solid fa-phone"></i>
+                    <a href="tel:+918106636370">+91 8106636370</a>
+                    </p>
+
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/ganeshgudibanda/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/SaiGanesh1809"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/saiganesh__46"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <div>
+                    <a href="images/my_resume.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form action="#" method="post" name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © SaiGanesh. <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+
+    var sidemeu= document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+</script>
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script>
+  (function(){
+    emailjs.init("dl5rMssHeqvqHcFtS"); // Replace with your EmailJS User ID
+  })();
+</script>
+
+<script>
+  const form = document.forms['submit-to-google-sheet'];
+  const msg = document.getElementById("msg");
+
+  form.addEventListener('submit', function(e) {
+    e.preventDefault();
+
+    emailjs.sendForm('service_savjxxg', 'template_a3ccwnn', this)
+      .then(function() {
+        msg.innerHTML = "Message sent successfully!";
+        setTimeout(function() {
+          msg.innerHTML = "";
+        }, 5000);
+        form.reset();
+      }, function(error) {
+        console.error('FAILED...', error);
+        msg.innerHTML = "Failed to send. Try again.";
+        setTimeout(function() {
+          msg.innerHTML = "";
+        }, 5000);
+      });
+  });
+</script>
+
+</body>
+</html>
