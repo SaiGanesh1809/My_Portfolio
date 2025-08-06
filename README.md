@@ -1,43 +1,43 @@
 # Portfolio V5
 
-Hello everyone\! 👋
+Hello everyone! 👋
 
 Let me introduce myself, I'm **G Sai Ganesh**. On this occasion, I'd like to share the portfolio website project that I've developed.
 
 ## 🚀 Live Demo
 
-**Website Link:** [https://www.eki.my.id/](https://www.eki.my.id/)
+**Website Link:** [https://saiganesh1809.github.io/My_Portfolio/](https://saiganesh1809.github.io/My_Portfolio/)
 
 ## 🛠️ Tech Stack
 
 This project is built using modern web technologies:
 
-  - **ReactJS** - Frontend framework
-  - **Tailwind CSS** - Utility-first CSS framework
-  - **Supabase** - Backend for portfolio data, certificates, and comment system
-  - **AOS** - Animate On Scroll library
-  - **Framer Motion** - Animation library
-  - **Lucide** - Icon library
-  - **Material UI** - React component library
-  - **SweetAlert2** - Beautiful alert dialogs
+- **ReactJS** - Frontend framework  
+- **Tailwind CSS** - Utility-first CSS framework  
+- **Supabase** - Backend for portfolio data, certificates, and comment system  
+- **AOS** - Animate On Scroll library  
+- **Framer Motion** - Animation library  
+- **Lucide** - Icon library  
+- **Material UI** - React component library  
+- **SweetAlert2** - Beautiful alert dialogs  
 
 ## 📋 Prerequisites
 
 Before running this project, ensure you have the following installed:
 
-  - **Node.js** (version 14.x or higher)
-  - **npm** or **yarn** package manager
+- **Node.js** (version 14.x or higher)  
+- **npm** or **yarn** package manager  
 
 ## 🏃‍♂️ Getting Started
 
 Follow these steps to run the project locally:
 
-### 1\. Clone the Repository
+### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/EkiZR/Portofolio_V5.git
-cd Portofolio_V5
-```
+git clone https://github.com/SaiGanesh1809/My_Portfolio.git
+cd My_Portfolio
+
 
 ### 2\. Install Dependencies
 
@@ -235,13 +235,13 @@ We would appreciate it if you decide to use this project. Please include proper 
 
 ## 📞 Contact
 
-If you have any questions or need help with the setup, feel free to reach out\!
+If you have any questions or need help with the setup, feel free to reach out!
 
-**Eki Zulfar Rachman**
+**G Sai Ganesh**
 
-  - Website: [https://www.eki.my.id/](https://www.eki.my.id/)
-  - GitHub: [EkiZR](https://github.com/EkiZR)
+- Website: [https://saiganesh1809.github.io/My_Portfolio/](https://saiganesh1809.github.io/My_Portfolio/)
+- GitHub: [SaiGanesh1809](https://github.com/SaiGanesh1809)
 
 -----
 
-⭐ If this project helped you, please consider giving it a star on GitHub\!
+⭐ If this project helped you, please consider giving it a star on GitHub!
